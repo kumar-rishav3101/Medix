@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UserEdit"></activity>
+        <activity android:name=".UserDrawer" />
+        <activity android:name=".User" />
+        <activity android:name=".UserInfo" />
+        <activity android:name=".UserLogin" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".Hospital" />
+        <activity android:name=".Hospital_Info" />
+        <activity android:name=".Hospital_Login" />
+        <activity android:name=".VendorProfile" />
+        <activity android:name=".VendorDrawer" />
+        <activity android:name=".Medicine" />
+        <activity android:name=".vendorMain" />
+        <activity android:name=".vendor_info" />
+        <activity android:name=".Vendor" />
+        <activity
+            android:name=".ui.login.Vendor"
+            android:label="MEDIX" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
